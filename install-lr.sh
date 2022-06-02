@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Install Level Ranks Web
 
 # Check if you really want to continue
@@ -19,7 +18,7 @@ git clone https://github.com/levelsranks/levels-ranks-web.git
 cd levels-ranks-web
 
 # Change permission of these files to 777
-files_perm=("storage/cache/sessions/","storage/cache/img/avatars/","storage/assets/css/","storage/assets/js/")
+files_perm=("storage/cache/sessions/" "storage/cache/img/avatars/" "storage/assets/css/" "storage/assets/js/")
 
 for f in "${files_perm[@]}"
 do
